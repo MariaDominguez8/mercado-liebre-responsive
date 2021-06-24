@@ -1,0 +1,157 @@
+/* header */
+
+.home header {
+    background-color: #EAC926;
+    padding: 15px 0 5px 0;
+}
+
+.home header .logo {
+    width: 130px;
+    margin: 5px 0 15px 25px;
+}
+
+.home header .search {
+    margin-left: 20px;
+}
+
+.home header .compra {
+    margin: 10px 0 10px 40px;
+}
+
+.home header .burger-menu {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.home header .burger-menu i {
+    background-color: #1259c3;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.home header .list2 {
+    margin: 10px 0 10px 0;
+}
+
+.home header .list1, .list2 {
+    display: none;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+/* main */
+
+.home main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ebebeb;
+}
+
+.home main .banner {
+    display: none;
+}
+
+.home main img {
+    width: 100%;
+}
+
+.home main .titular {
+    font-size: 24px;
+    color: #666;
+    padding: 15px 0 15px 15px;
+}
+
+.home main .precios {
+    font-size: 18px;
+    color: rgb(27, 27, 27);
+}
+
+.home main .descuentos, .descripcion {
+    font-size: 16px;
+    color: rgb(129, 125, 125);
+}
+
+.home main .descripcion {
+    display: none;
+}
+
+.home main .descuentos, .icondesc {
+    color: #39b54a;
+}
+
+.home main .icondesc {
+    width: min-content;
+    font-size: 16px;
+    border: solid 1px;
+    padding: 0px 10px 10px 3.5px;
+    border-radius: 50%;
+}
+
+.home main article {
+    margin: 10px 0;
+}
+
+.home main .product {
+    background-color: white;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+/* footer */
+
+.home footer {
+    margin-top: 80px;
+    background-color: #fff;
+}
+
+.home footer .icon {
+    text-align: center;
+}
+
+.home footer .fa-credit-card, .fa-gift, .fa-user-shield {
+    color: #03264C;
+    font-size: 2em;
+    margin: 10px 0 10px 0;
+}
+
+.home footer p {
+    padding: 0 40px 0 40px;
+    color: rgb(129, 125, 125);
+    text-align: center;
+}
+
+.home footer h4 {
+    font-size: 15px;
+    color: #666;
+}
+
+.home footer .copy {
+    color: #666;
+    margin: 40px 0 25px 15px;
+}
+
+@media (min-width: 361px) {
+    /* header */
+    .home header .list1, .list2 {
+        display: inline;
+    }
+    .home header .burger-menu {
+        display: none;
+    }
+    /* main */
+    .home main .descripcion {
+        display: inline;
+    }
+    .home main .banner {
+        display: block;
+        width: 100%;
+    }
+    .home main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
